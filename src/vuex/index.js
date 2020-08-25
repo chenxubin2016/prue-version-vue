@@ -9,7 +9,7 @@ const modulesFiles = require.context('./modules', false, /\.js$/),
     const moduleName = modulePath.replace(/^\.\/(.*)\.w+$/, '$1'),
       value = modulesFiles(modulePath);
     module[moduleName] = value.default;
-    console.log(moduleName,value)
+    console.log(moduleName, value);
     return module;
   }, {}),
   store = new Vuex.Store({

@@ -10,7 +10,15 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+  *{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+  }
   html,body{
     width: 100%;
     height: 100%;
@@ -22,7 +30,6 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    margin-top: 60px;
   }
 
   @media (min-width: 750px) {

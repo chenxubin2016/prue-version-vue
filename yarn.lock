@@ -7443,6 +7443,11 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
+swiper@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-3.4.2.tgz#39d6b410b1a39833e1f72d3b72999df5f5e38392"
+  integrity sha1-Oda0ELGjmDPh9y07cpmd9fXjg5I=
+
 table@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/table/-/table-4.0.2.tgz#a33447375391e766ad34d3486e6e2aedc84d2e36"
@@ -7892,6 +7897,13 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+vue-awesome-swiper@2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/vue-awesome-swiper/-/vue-awesome-swiper-2.5.4.tgz#265a2a3ec2f9830d6b0175ea06784c36a261c54a"
+  integrity sha512-5na20V8D/wX7JwyY8+cna8mJ9yaDQ+W/hjawn1FSdwSlRKABDyLMwtgeYtst1/zaD7vt4DeXqVGin/n5+qGPpQ==
+  dependencies:
+    swiper "^3.4.2"
 
 vue-eslint-parser@^2.0.3:
   version "2.0.3"

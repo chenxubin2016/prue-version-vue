@@ -8,13 +8,19 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'layout',
-      component: () => import('../components/layout'),
-      redirect: '/home',
-      children: [{
-        path: '/home',
-        component: () => import('../views/home')
-      }]
+      component: () => import('../views/swiperTest')
     }
+    // {
+    //   path: '/',
+    //   name: 'layout',
+    //   component: () => import('../components/layout'),
+    //   redirect: '/home',
+    //   children: [
+    //     {
+    //       path: '/home',
+    //       component: () => import('../views/home')
+    //     }
+    //   ]
+    // }
   ]
 });
