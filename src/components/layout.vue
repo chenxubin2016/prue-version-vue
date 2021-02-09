@@ -1,8 +1,10 @@
 <template>
   <div class="main">
     <cmHeader/>
-    <router-view/>
-    <cm-footer/>
+    <div class="container">
+      <router-view/>
+    </div>
+    <cmFooter/>
   </div>
 </template>
 
@@ -15,8 +17,15 @@ export default {
   components: {cmHeader, cmFooter}
 };
 </script>
-
 <style lang="scss" scoped>
-  @import "../assets/scss/style";
+  .main {
+    height: 100%;
+    @include flex(flex-start, center, column);
+    .container {
+      width: 100%;
+      flex: 1;
+      @include overflow(hidden,auto);
+    }
+  }
 
 </style>

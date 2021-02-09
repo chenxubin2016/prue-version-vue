@@ -1,5 +1,5 @@
 <template>
-  <div class="header">header</div>
+  <div class="cm-header">header</div>
 </template>
 
 <script>
@@ -9,10 +9,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../assets/scss/style";
-.header{
-  width: 100%;
-  height: 90px;
-  background-color: aquamarine;
-}
+  .cm-header {
+    width: 100%;
+    height: 90px;
+    background-color: aquamarine;
+    @include flex(center);
+  }
 </style>

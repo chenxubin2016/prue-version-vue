@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">footer</div>
+  <div class="cm-footer">footer</div>
 </template>
 
 <script>
@@ -9,10 +9,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import "../../assets/scss/style";
-  .footer{
+  .cm-footer {
     width: 100%;
-    height: 160px;
+    height: 90px;
     background-color: darkslateblue;
+    @include flex(center);
+    color: $white;
   }
 </style>

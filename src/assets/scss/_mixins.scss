@@ -1,0 +1,23 @@
+//flex 布局
+@mixin flex($justify:space-between,$items:center,$direction:row) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $items;
+  flex-direction: $direction;
+}
+
+@mixin link-colors($normal,$hover,$visited) {
+  color: $normal;
+  &:hover {
+    color: $hover;
+  }
+  &:visited {
+    color: $visited;
+  }
+}
+
+@mixin overflow($x:hidden,$y:hidden) {
+  overflow-x: $x;
+  overflow-y: $y;
+  -webkit-overflow-scrolling: touch;
+}

@@ -66,8 +66,8 @@ export default {
 
 <style lang="scss" scoped>
   .swiper-page {
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     .swiper-container {
       height: 100%;
       .swiper-slide {
